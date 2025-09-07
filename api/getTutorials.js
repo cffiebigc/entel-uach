@@ -1,5 +1,5 @@
 // api/getTutorials.js
-const { google } = require("googleapis");
+import { google } from "googleapis";
 
 function groupVideosByTutorial(videos) {
   const tutorials = {};
