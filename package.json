@@ -1,0 +1,16 @@
+{
+  "name": "entel-uach",
+  "version": "1.0.0",
+  "description": "Serverless API for Entel UACH",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "vercel build"
+  },
+  "dependencies": {
+    "googleapis": "^128.0.0"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}
