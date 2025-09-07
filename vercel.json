@@ -1,0 +1,13 @@
+{
+  "functions": {
+    "api/getTutorials.js": {
+      "maxDuration": 10
+    }
+  },
+  "env": {
+    "GOOGLE_CLIENT_ID": "@google_client_id",
+    "GOOGLE_CLIENT_SECRET": "@google_client_secret",
+    "YOUTUBE_REFRESH_TOKEN": "@youtube_refresh_token",
+    "PLAYLIST_ID": "@playlist_id"
+  }
+}
