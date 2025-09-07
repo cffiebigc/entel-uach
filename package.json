@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "Serverless API for Entel UACH",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "dev": "vercel dev",
-    "build": "vercel build"
+    "dev": "node api/getTutorials.js"
   },
   "dependencies": {
     "googleapis": "^128.0.0"
